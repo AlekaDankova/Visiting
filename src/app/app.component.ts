@@ -19,10 +19,8 @@ export class AppComponent {
     translate.use(browserLang.match(/de|ru/) ? browserLang : 'de');
   }
 
-  visitingcard(){}
-
-  curriculumvitae(){}
-
-  projects(){}
+  navigate(ort) {
+    this.router.navigate([ort]);
+  }
   
 }

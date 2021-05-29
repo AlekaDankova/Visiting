@@ -35,8 +35,10 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       }
     }),
     RouterModule.forRoot([
-      { path: '', redirectTo: '/', pathMatch: 'full' },
-      //{ path: 'persDaten', component: PersDatenComponent }
+      { path: '', redirectTo: '/visiting', pathMatch: 'full' },
+      { path: 'visiting', component: VisitingcardComponent },
+      { path: 'curriculum', component: CurriculumvitaeComponent },
+      { path: 'projects', component: ProjectsComponent }
     ])
   ],
   providers: [],

@@ -2,18 +2,18 @@
   <tr>
     <th>
       <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="visitingcard()"
-        id="btn_persdaten">{{ 'HOME.VISITINGCARD' | translate }}</button>
+        class="w3-btn w3-border w3-round-large" (click)="navigate('visiting')"
+        id="btn_visiting">{{ 'HOME.VISITINGCARD' | translate }}</button>
     </th>
     <th>
       <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="curriculumvitae()"
-        id="btn_berufserf">{{ 'HOME.CURRICULUMVITAE' | translate }}</button>
+        class="w3-btn w3-border w3-round-large" (click)="navigate('curriculum')"
+        id="btn_curriculum">{{ 'HOME.CURRICULUMVITAE' | translate }}</button>
     </th>
     <th>
       <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="projects()"
-        id="btn_ausbildung">{{ 'HOME.PROJECTS' | translate }}</button>
+        class="w3-btn w3-border w3-round-large" (click)="navigate('projects')"
+        id="btn_projects">{{ 'HOME.PROJECTS' | translate }}</button>
     </th>
     <th style="width: 20vw;">
       <label style="font-size: calc(0.5vw + 5px);">
