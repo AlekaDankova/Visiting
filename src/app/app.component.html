@@ -1,0 +1,31 @@
+<table style="width: 100vw;">
+  <tr>
+    <th>
+      <label
+        style="text-shadow:2px 2px 0 #444; font-size: calc(2vw + 5px);">{{ 'HOME.LEBENSLAUF' | translate }}</label>
+    </th>
+    <th style="width: 20vw;">
+      <label style="font-size: calc(0.5vw + 5px);">
+        {{ 'HOME.SELECT' | translate }}
+        <select #langSelect (change)="translate.use(langSelect.value)">
+          <option *ngFor="let lang of translate.getLangs()" [value]="lang"
+            [selected]="lang === translate.currentLang">{{ lang }}</option>
+        </select>
+      </label>
+    </th>
+  </tr>
+</table>
+<div class="w3-bar w3-white">
+  <!--<button style="margin: 1vw; background-color: #ffffff;" class="w3-bar-item w3-button w3-btn w3-border w3-round-large"
+    (click)="persDaten()" id="btn_persdaten">{{ 'HOME.PERSDATEN' | translate }}</button>
+  <button style="margin: 1vw; background-color: #ffffff;" class="w3-bar-item w3-button w3-btn w3-border w3-round-large"
+    (click)="berufsErf()" id="btn_berufserf">{{ 'HOME.BERUFSERF' | translate }}</button>
+  <button style="margin: 1vw; background-color: #ffffff;" class="w3-bar-item w3-button w3-btn w3-border w3-round-large"
+    (click)="ausbildung()" id="btn_ausbildung">{{ 'HOME.AUSBILDUNG' | translate }}</button>
+  <button style="margin: 1vw; background-color: #ffffff;" class="w3-bar-item w3-button w3-btn w3-border w3-round-large"
+    (click)="kenntInter()" id="btn_kenntinter">{{ 'HOME.KENNTINTER' | translate }}</button>
+  <button style="margin: 1vw; background-color: #ffffff;" class="w3-bar-item w3-button w3-btn w3-border w3-round-large"
+    (click)="projekte()" id="btn_projekte">{{ 'HOME.PROJEKTE' | translate }}</button>-->
+</div>
+
+<router-outlet></router-outlet>

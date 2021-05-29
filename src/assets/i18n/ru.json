@@ -1,0 +1,33 @@
+{
+  "MEINEDATEN": {
+    "NAME": "Александра Данькова",
+    "GEBURTSDATEN": "3 ноября 1993",
+    "ADRESSE": "Schozacher Str. 34",
+    "PLZORT": "70437 Stuttgart",
+    "TELEFON": "+49 157 55569944",
+    "EMAIL": "hexe.aleka@gmail.com"
+  },
+  "HOME": {
+    "SELECT": "Изменить язык",
+    "HOME": "Главная страница",
+    "LEBENSLAUF": "Резюме",
+    "PERSDATEN": "Личные данные",
+    "BERUFSERF": "Рабочий стаж",
+    "AUSBILDUNG": "Образование",
+    "KENNTINTER": "Знания и интересы",
+    "PROJEKTE": "Мои проекты"
+  },
+  "PERSDATEN":{
+    "TITLE": "Личные данные",
+    "NAME": "Имя",
+    "GEBURTSDATEN": "День Рождения",
+    "ADRESSE": "Адрес",
+    "TELEFON": "Телефон"
+  },
+  "BERUFSERF": {
+    
+  },
+  "AUSBILDUNG": {
+    
+  }
+}
