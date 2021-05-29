@@ -9,25 +9,8 @@
   },
   "HOME": {
     "SELECT": "Изменить язык",
-    "HOME": "Главная страница",
-    "LEBENSLAUF": "Резюме",
-    "PERSDATEN": "Личные данные",
-    "BERUFSERF": "Рабочий стаж",
-    "AUSBILDUNG": "Образование",
-    "KENNTINTER": "Знания и интересы",
-    "PROJEKTE": "Мои проекты"
-  },
-  "PERSDATEN":{
-    "TITLE": "Личные данные",
-    "NAME": "Имя",
-    "GEBURTSDATEN": "День Рождения",
-    "ADRESSE": "Адрес",
-    "TELEFON": "Телефон"
-  },
-  "BERUFSERF": {
-    
-  },
-  "AUSBILDUNG": {
-    
+    "VISITINGCARD": "Визитная карта",
+    "CURRICULUMVITAE": "Резюме",
+    "PROJECTS": "Проекты"
   }
 }

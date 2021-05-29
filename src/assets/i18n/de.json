@@ -9,25 +9,8 @@
   },
   "HOME": {
     "SELECT": "Sprache ändern",
-    "HOME": "Hauptseite",
-    "LEBENSLAUF": "Lebenslauf",
-    "PERSDATEN": "Persönliche Daten",
-    "BERUFSERF": "Berufserfahrung",
-    "AUSBILDUNG": "Ausbildung",
-    "KENNTINTER": "Kenntnisse und Interessen",
-    "PROJEKTE": "Meine Projekte"
-  },
-  "PERSDATEN": {
-    "TITLE": "Persönliche Daten",
-    "NAME": "Name",
-    "GEBURTSDATEN": "Geburtsdaten",
-    "ADRESSE": "Adresse",
-    "TELEFON": "Telefon"
-  },
-  "BERUFSERF": {
-    
-  },
-  "AUSBILDUNG": {
-    
+    "VISITINGCARD": "Visitenkarte",
+    "CURRICULUMVITAE": "Lebenslauf",
+    "PROJECTS": "Projekte"
   }
 }
