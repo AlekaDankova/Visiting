@@ -1,30 +1,14 @@
-<table style="width: 100vw;">
-  <tr>
-    <th>
-      <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="navigate('visiting')"
-        id="btn_visiting">{{ 'HOME.VISITINGCARD' | translate }}</button>
-    </th>
-    <th>
-      <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="navigate('curriculum')"
-        id="btn_curriculum">{{ 'HOME.CURRICULUMVITAE' | translate }}</button>
-    </th>
-    <th>
-      <button style="margin: 1vw; background-color: #ffffff;"
-        class="w3-btn w3-border w3-round-large" (click)="navigate('projects')"
-        id="btn_projects">{{ 'HOME.PROJECTS' | translate }}</button>
-    </th>
-    <th style="width: 20vw;">
-      <label style="font-size: calc(0.5vw + 5px);">
-        {{ 'HOME.SELECT' | translate }}
-        <select #langSelect (change)="translate.use(langSelect.value)">
-          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
-            {{ lang }}</option>
-        </select>
-      </label>
-    </th>
-  </tr>
-</table>
+<div class="navbar">
+  <a (click)="navigate('visiting')">{{ 'HOME.VISITINGCARD' | translate }}</a>
+  <a (click)="navigate('curriculum')">{{ 'HOME.CURRICULUMVITAE' | translate }}</a>
+  <a (click)="navigate('projects')">{{ 'HOME.PROJECTS' | translate }}</a>
+  <div class="dropdown" style="position: absolute; right: 5vw;">
+    <select class="dropbtn" #langSelect (change)="translate.use(langSelect.value)">
+      <option class="dropdown-content" *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+        {{ lang }}</option>
+    </select>
+    
+  </div> 
+</div>
 
 <router-outlet></router-outlet>

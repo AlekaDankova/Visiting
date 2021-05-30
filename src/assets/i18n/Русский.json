@@ -1,0 +1,117 @@
+{
+  "HOME": {
+    "VISITINGCARD": "Визитная карта",
+    "CURRICULUMVITAE": "Резюме",
+    "PROJECTS": "Проекты"
+  },
+  "VISITINGCARD": {
+    "NAME": "Александра Данькова",
+    "PHONE": "+49 157 55569944",
+    "EMAIL": "hexe.aleka@gmail.com",
+    "PROFESSION": "Специалист по разработке приложений"
+  },
+  "PROJECTS": [
+    {
+      "NAME": "ZAB Energieberater",
+      "DESCRIPTION": "Описание проекта ZAB Energieberater"
+    },
+    {
+      "NAME": "ZABTouch",
+      "DESCRIPTION": "Описание проекта ZABTouch"
+    },
+    {
+      "NAME": "DigiPark",
+      "DESCRIPTION": "Описание проекта DigiPark"
+    },
+    {
+      "NAME": "DigiAnimation",
+      "DESCRIPTION": "Описание проекта DigiAnimation"
+    }
+  ],
+  "CURRICULUMVITAE": {
+    "MENU": {
+      "PERSONALDATA": "Личные данные",
+      "WORKEXPERIENCE": "Рабочий стаж",
+      "EDUCATION": "Образование",
+      "SPECIALKNOWLWDGE": "Специальные знания",
+      "LINGUISTICPROFICIENCY": "Лингвистические знания",
+      "OTHER": "Другое"
+    },
+    "PERSONALDATA": [
+      {
+        "FIELDNAME": "Имя",
+        "DATA": "Александра Данькова"
+      },
+      {
+        "FIELDNAME": "Дата Рождения",
+        "DATA": "3 ноября 1993"
+      },
+      {
+        "FIELDNAME": "Адрес",
+        "DATA": "Schozacher Str. 34"
+      },
+      {
+        "FIELDNAME": "Почтовый индекс/Город",
+        "DATA": "70437 Stuttgart"
+      },
+      {
+        "FIELDNAME": "Номер телефона",
+        "DATA": "+49 157 55569944"
+      },
+      {
+        "FIELDNAME": "E-Mail",
+        "DATA": "hexe.aleka@gmail.com"
+      }
+    ],
+    "WORKEXPERIENCE": [ 
+      {
+        "DATE": "09.2018 - 08.2021",
+        "FIRMA": "Werbeagentur Maier GmbH",
+        "POSITION": "Обучающийся",
+        "EXPERIENCE": "NodeJS, Angular, Ionic, Arduino, Node-Red, Adobe Animate"
+      }
+    ],
+    "EDUCATION": [
+      {
+        "DATE": "09.2018 - 08.2021",
+        "SCHOOL": "IT Schule Stuttgart",
+        "DIRECTION": "Специалист по разработке приложений"
+      }
+    ],
+    "SPECIALKNOWLWDGE": [
+      {
+        "NAME": "PC-знания",
+        "DESCRIPTION": "Word, Excel, PowerPoint"
+      }
+    ],
+    "LINGUISTICPROFICIENCY": [
+      {
+        "NAME": "Русский",
+        "DESCRIPTION": "Родной"
+      },
+      {
+        "NAME": "Немейкий",
+        "DESCRIPTION": "B1"
+      },
+      {
+        "NAME": "Английский",
+        "DESCRIPTION": "А1"
+      }
+    ],
+    "OTHER": [
+      {
+        "NAME": "Хобби",
+        "DESCRIPTION": [
+          {
+            "NAME": "Чтение",
+            "DESCRIPTION": "Книги - это миры, в которые мы можем заглянуть."
+          },
+          {
+            "NAME": "Готовка",
+            "DESCRIPTION": "Приготовление блюд позволяяет обдумывать насущные проблемы и радовать близких и друзей вкусным."
+          }
+        ]
+      }
+    ]
+  }
+}

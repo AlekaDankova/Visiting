@@ -13,10 +13,10 @@ export class AppComponent {
     public translate: TranslateService,
     private router: Router
   ) {
-    translate.addLangs(['de', 'ru']);
-    translate.setDefaultLang('de');
+    translate.addLangs(['Русский', 'Deutsch']);
+    translate.setDefaultLang('Русский');
     const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/de|ru/) ? browserLang : 'de');
+    translate.use(browserLang.match(/Русский|Deutsch/) ? browserLang : 'Русский');
   }
 
   navigate(ort) {

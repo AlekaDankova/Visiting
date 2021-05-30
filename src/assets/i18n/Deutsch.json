@@ -1,0 +1,117 @@
+{
+  "HOME": {
+    "VISITINGCARD": "Visitenkarte",
+    "CURRICULUMVITAE": "Lebenslauf",
+    "PROJECTS": "Projekte"
+  },
+  "VISITINGCARD": {
+    "NAME": "Alexandra Dankova",
+    "PHONE": "+49 157 55569944",
+    "EMAIL": "hexe.aleka@gmail.com",
+    "PROFESSION": "Fachinformatiker Anwendungsentwicklung"
+  },
+  "PROJECTS": [
+    {
+      "NAME": "ZAB Energieberater",
+      "DESCRIPTION": "Beschreibung des Projekts ZAB Energieberater"
+    },
+    {
+      "NAME": "ZABTouch",
+      "DESCRIPTION": "Beschreibung des Projekts ZABTouch"
+    },
+    {
+      "NAME": "DigiPark",
+      "DESCRIPTION": "Beschreibung des Projekts DigiPark"
+    },
+    {
+      "NAME": "DigiAnimation",
+      "DESCRIPTION": "Beschreibung des Projekts DigiAnimation"
+    }
+  ],
+  "CURRICULUMVITAE": {
+    "MENU": {
+      "PERSONALDATA": "Persönliche Daten",
+      "WORKEXPERIENCE": "Berufserfahrung",
+      "EDUCATION": "Ausbildung",
+      "SPECIALKNOWLWDGE": "Besondere Kenntnisse",
+      "LINGUISTICPROFICIENCY": "Sprachkenntnisse",
+      "OTHER": "Sonstiges"
+    },
+    "PERSONALDATA": [
+      {
+        "FIELDNAME": "Name",
+        "DATA": "Alexandra Dankova"
+      },
+      {
+        "FIELDNAME": "Geburtsdatum",
+        "DATA": "3. November 1993"
+      },
+      {
+        "FIELDNAME": "Adresse",
+        "DATA": "Schozacher Str. 34"
+      },
+      {
+        "FIELDNAME": "PLZ Ort",
+        "DATA": "70437 Stuttgart"
+      },
+      {
+        "FIELDNAME": "Telefonnummer",
+        "DATA": "+49 157 55569944"
+      },
+      {
+        "FIELDNAME": "E-Mail",
+        "DATA": "hexe.aleka@gmail.com"
+      }
+    ],
+    "WORKEXPERIENCE": [ 
+      {
+        "DATE": "09.2018 - 08.2021",
+        "FIRMA": "Werbeagentur Maier GmbH",
+        "POSITION": "Auszubildende",
+        "EXPERIENCE": "NodeJS, Angular, Ionic, Arduino, Node-Red, Adobe Animate"
+      }
+    ],
+    "EDUCATION": [
+      {
+        "DATE": "09.2018 - 08.2021",
+        "SCHOOL": "IT Schule Stuttgart",
+        "DIRECTION": "Fachinformatiker Anwendungsentwicklung"
+      }
+    ],
+    "SPECIALKNOWLWDGE": [
+      {
+        "NAME": "PC-Kenntnisse",
+        "DESCRIPTION": "Word, Excel, PowerPoint"
+      }
+    ],
+    "LINGUISTICPROFICIENCY": [
+      {
+        "NAME": "Russisch",
+        "DESCRIPTION": "C2"
+      },
+      {
+        "NAME": "Deutsch",
+        "DESCRIPTION": "B1"
+      },
+      {
+        "NAME": "Englisch",
+        "DESCRIPTION": "А1"
+      }
+    ],
+    "OTHER": [
+      {
+        "NAME": "Hobbys",
+        "DESCRIPTION": [
+          {
+            "NAME": "Lesen",
+            "DESCRIPTION": ""
+          },
+          {
+            "NAME": "Kochen",
+            "DESCRIPTION": ""
+          }
+        ]
+      }
+    ]
+  }
+}
