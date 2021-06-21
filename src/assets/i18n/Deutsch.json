@@ -10,24 +10,26 @@
     "EMAIL": "hexe.aleka@gmail.com",
     "PROFESSION": "Fachinformatiker Anwendungsentwicklung"
   },
-  "PROJECTS": [
-    {
-      "NAME": "ZAB Energieberater",
+  "PROJECTS": {
+    "MENU": {
+      "ZABENERGIEBERATER": "ZAB Energieberater",
+      "ZABTOUCH": "ZABTouch",
+      "DIGIPARK": "DigiPark",
+      "DIGIANIMATION": "DigiAnimation"
+    },
+    "ZABENERGIEBERATER": {
       "DESCRIPTION": "Beschreibung des Projekts ZAB Energieberater"
     },
-    {
-      "NAME": "ZABTouch",
+    "ZABTOUCH": {
       "DESCRIPTION": "Beschreibung des Projekts ZABTouch"
     },
-    {
-      "NAME": "DigiPark",
+    "DIGIPARK": {
       "DESCRIPTION": "Beschreibung des Projekts DigiPark"
     },
-    {
-      "NAME": "DigiAnimation",
+    "DIGIANIMATION": {
       "DESCRIPTION": "Beschreibung des Projekts DigiAnimation"
     }
-  ],
+  },
   "CURRICULUMVITAE": {
     "MENU": {
       "PERSONALDATA": "Persönliche Daten",
@@ -63,14 +65,25 @@
         "DATA": "hexe.aleka@gmail.com"
       }
     ],
+    "WORKEXPERIENCE_TABLE": {
+      "DATE": "Datum",
+      "FIRMA": "Unternehmen",
+      "POSITION": "Position",
+      "EXPERIENCE": "Erfahrung"
+    },
     "WORKEXPERIENCE": [ 
       {
         "DATE": "09.2018 - 08.2021",
         "FIRMA": "Werbeagentur Maier GmbH",
         "POSITION": "Auszubildende",
-        "EXPERIENCE": "NodeJS, Angular, Ionic, Arduino, Node-Red, Adobe Animate"
+        "EXPERIENCE": ["NodeJS", "Angular", "Ionic", "Arduino", "Node-Red", "Adobe Animate"]
       }
     ],
+    "EDUCATION_TABLE": {
+      "DATE": "Datum",
+      "SCHOOL": "Schule",
+      "DIRECTION": "Richtung"
+    },
     "EDUCATION": [
       {
         "DATE": "09.2018 - 08.2021",
@@ -82,6 +95,18 @@
       {
         "NAME": "PC-Kenntnisse",
         "DESCRIPTION": "Word, Excel, PowerPoint"
+      },
+      {
+        "NAME": "Photographie",
+        "DESCRIPTION": "Adobe Photoshop"
+      },
+      {
+        "NAME": "Animation",
+        "DESCRIPTION": "Adobe Animate"
+      },
+      {
+        "NAME": "3D-Design",
+        "DESCRIPTION": "Autodesk Fusion 360"
       }
     ],
     "LINGUISTICPROFICIENCY": [

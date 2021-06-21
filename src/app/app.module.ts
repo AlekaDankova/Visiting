@@ -8,6 +8,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { VisitingcardComponent } from './pages/visitingcard/visitingcard.component';
 import { CurriculumvitaeComponent } from './pages/curriculumvitae/curriculumvitae.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
@@ -27,6 +29,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

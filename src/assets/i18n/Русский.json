@@ -10,24 +10,26 @@
     "EMAIL": "hexe.aleka@gmail.com",
     "PROFESSION": "Специалист по разработке приложений"
   },
-  "PROJECTS": [
-    {
-      "NAME": "ZAB Energieberater",
-      "DESCRIPTION": "Описание проекта ZAB Energieberater"
+  "PROJECTS": {
+    "MENU": {
+      "ZABENERGIEBERATER": "ZAB Energieberater",
+      "ZABTOUCH": "ZABTouch",
+      "DIGIPARK": "DigiPark",
+      "DIGIANIMATION": "DigiAnimation"
     },
-    {
-      "NAME": "ZABTouch",
-      "DESCRIPTION": "Описание проекта ZABTouch"
+    "ZABENERGIEBERATER": {
+      "DESCRIPTION": "Описание проекта Projekts ZAB Energieberater"
     },
-    {
-      "NAME": "DigiPark",
-      "DESCRIPTION": "Описание проекта DigiPark"
+    "ZABTOUCH": {
+      "DESCRIPTION": "Описание проекта Projekts ZABTouch"
     },
-    {
-      "NAME": "DigiAnimation",
-      "DESCRIPTION": "Описание проекта DigiAnimation"
+    "DIGIPARK": {
+      "DESCRIPTION": "Описание проекта Projekts DigiPark"
+    },
+    "DIGIANIMATION": {
+      "DESCRIPTION": "Описание проекта Projekts DigiAnimation"
     }
-  ],
+  },
   "CURRICULUMVITAE": {
     "MENU": {
       "PERSONALDATA": "Личные данные",
@@ -63,6 +65,12 @@
         "DATA": "hexe.aleka@gmail.com"
       }
     ],
+    "WORKEXPERIENCE_TABLE": {
+      "DATE": "Дата",
+      "FIRMA": "Фирма",
+      "POSITION": "Должность",
+      "EXPERIENCE": "Опыт"
+    },
     "WORKEXPERIENCE": [ 
       {
         "DATE": "09.2018 - 08.2021",
@@ -71,6 +79,11 @@
         "EXPERIENCE": "NodeJS, Angular, Ionic, Arduino, Node-Red, Adobe Animate"
       }
     ],
+    "EDUCATION_TABLE": {
+      "DATE": "Дата",
+      "SCHOOL": "Школа",
+      "DIRECTION": "Направление"
+    },
     "EDUCATION": [
       {
         "DATE": "09.2018 - 08.2021",
@@ -82,6 +95,18 @@
       {
         "NAME": "PC-знания",
         "DESCRIPTION": "Word, Excel, PowerPoint"
+      },
+      {
+        "NAME": "Фотография",
+        "DESCRIPTION": "Adobe Photoshop"
+      },
+      {
+        "NAME": "Анимация",
+        "DESCRIPTION": "Adobe Animate"
+      },
+      {
+        "NAME": "3D-Дизайн",
+        "DESCRIPTION": "Autodesk Fusion 360"
       }
     ],
     "LINGUISTICPROFICIENCY": [

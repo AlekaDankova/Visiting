@@ -1,6 +1,19 @@
-<ng-container *ngFor="let item of 'PROJECTS' | translate">
-  <button class="accordion" (click)="test()">{{item.NAME}}</button>
-  <div class="panel">
-    <p>{{item.DESCRIPTION}}</p>
-  </div>
-</ng-container>
+<button class="accordion">{{ 'PROJECTS.MENU.ZABENERGIEBERATER' | translate }}</button>
+<div class="panel">
+  <p>{{ 'PROJECTS.ZABENERGIEBERATER.DESCRIPTION' | translate }}</p>
+</div>
+
+<button class="accordion">{{ 'PROJECTS.MENU.ZABTOUCH' | translate }}</button>
+<div class="panel">
+  <p>{{ 'PROJECTS.ZABTOUCH.DESCRIPTION' | translate }}</p>
+</div>
+
+<button class="accordion">{{ 'PROJECTS.MENU.DIGIPARK' | translate }}</button>
+<div class="panel">
+  <p>{{ 'PROJECTS.DIGIPARK.DESCRIPTION' | translate }}</p>
+</div>
+
+<button class="accordion">{{ 'PROJECTS.MENU.DIGIANIMATION' | translate }}</button>
+<div class="panel">
+  <p>{{ 'PROJECTS.DIGIANIMATION.DESCRIPTION' | translate }}</p>
+</div>

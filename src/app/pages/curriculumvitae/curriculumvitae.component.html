@@ -1,44 +1,101 @@
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.PERSONALDATA' | translate }}</button>
-<div class="panel">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.PERSONALDATA' | translate">
-        <p>{{item.FIELDNAME}}: {{item.DATA}}</p>
-    </ng-container>
+<div class="panel" style="position: relative;">
+  <ng-container *ngFor="let item of 'CURRICULUMVITAE.PERSONALDATA' | translate" style="position: absolute; left: 10px;">
+    <p>{{item.FIELDNAME}}: {{item.DATA}}</p>
+  </ng-container>
+  <div class="fotos">
+    <i class="fa fa-chevron-left fa-3x" (click)="previous()"
+      style="color: #666666; position: absolute; left: 10px; top: 40%;"></i>
+    <i class="fa fa-chevron-right fa-3x" (click)="next()"
+      style="color: #666666; position: absolute; right: 10px; top: 40%;"></i>
+  </div>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.WORKEXPERIENCE' | translate }}</button>
 <div class="panel">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.WORKEXPERIENCE' | translate">
-        <p>{{item.DATE}}: {{item.FIRMA}} - {{item.POSITION}} - {{item.EXPERIENCE  }}</p>
-    </ng-container>
+  <div style="width:99vw;">
+    <div style="width: 95vw;">
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.DATE' | translate }}</p>
+      </div>
+      <div style="width: 20vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.FIRMA' | translate }}</p>
+      </div>
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.POSITION' | translate }}</p>
+      </div>
+      <div style="width: 45vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.EXPERIENCE' | translate }}</p>
+      </div>
+    </div>
+    <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.WORKEXPERIENCE' | translate">
+        <div style="width: 15vw; display: inline-block;">
+            <p>{{item.DATE}}</p>
+        </div>
+        <div style="width: 20vw; display: inline-block;">
+            <p>{{item.FIRMA}} </p>
+        </div>
+        <div style="width: 15vw; display: inline-block;">
+            <p>{{item.POSITION}}</p>
+        </div>
+        <div style="width: 45vw; display: inline-block;">
+            <p>{{item.EXPERIENCE}}</p>
+        </div>
+    </div>
+  </div>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.EDUCATION' | translate }}</button>
 <div class="panel">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
-        <p>{{item.DATE}}: {{item.SCHOOL}} - {{item.DIRECTION}}</p>
-    </ng-container>
+    <div style="width:99vw;">
+        <div style="width: 95vw;">
+          <div style="width: 15vw; display: inline-block;">
+            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DATE' | translate }}</p>
+          </div>
+          <div style="width: 20vw; display: inline-block;">
+            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.SCHOOL' | translate }}</p>
+          </div>
+          <div style="width: 60vw; display: inline-block;">
+            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DIRECTION' | translate }}</p>
+          </div>
+        </div>
+        <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
+            <div style="width: 15vw; display: inline-block;">
+                <p>{{item.DATE}}</p>
+            </div>
+            <div style="width: 20vw; display: inline-block;">
+                <p>{{item.SCHOOL}} </p>
+            </div>
+            <div style="width: 60vw; display: inline-block;">
+                <p>{{item.DIRECTION}}</p>
+            </div>
+        </div>
+      </div>
+  <!-- <ng-container *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
+    <p>{{item.DATE}}: {{item.SCHOOL}} - {{item.DIRECTION}}</p>
+  </ng-container> -->
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.SPECIALKNOWLWDGE' | translate }}</button>
-<div class="panel" style="display: none;">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.SPECIALKNOWLWDGE' | translate">
-        <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
-    </ng-container>
+<div class="panel">
+  <ng-container *ngFor="let item of 'CURRICULUMVITAE.SPECIALKNOWLWDGE' | translate">
+    <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
+  </ng-container>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.LINGUISTICPROFICIENCY' | translate }}</button>
-<div class="panel" style="display: none;">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.LINGUISTICPROFICIENCY' | translate">
-        <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
-    </ng-container>
+<div class="panel">
+  <ng-container *ngFor="let item of 'CURRICULUMVITAE.LINGUISTICPROFICIENCY' | translate">
+    <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
+  </ng-container>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.OTHER' | translate }}</button>
-<div class="panel" style="display: none;">
-    <ng-container *ngFor="let item of 'CURRICULUMVITAE.OTHER' | translate">
-        <p>{{item.NAME}}: </p>
-        <ng-container *ngFor="let i of item.DESCRIPTION">
-            <p>{{i.NAME}} - {{i.DESCRIPTION}}</p>
-        </ng-container>
+<div class="panel">
+  <ng-container *ngFor="let item of 'CURRICULUMVITAE.OTHER' | translate">
+    <p>{{item.NAME}}: </p>
+    <ng-container *ngFor="let i of item.DESCRIPTION">
+      <p>{{i.NAME}} - {{i.DESCRIPTION}}</p>
     </ng-container>
+  </ng-container>
 </div>

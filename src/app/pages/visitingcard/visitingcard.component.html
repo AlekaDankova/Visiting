@@ -1,4 +1,14 @@
-<label>{{ 'VISITINGCARD.NAME' | translate }}</label><br/>
-<label>{{ 'VISITINGCARD.PROFESSION' | translate }}</label><br/>
-<label>{{ 'VISITINGCARD.EMAIL' | translate }}</label><br/>
-<label>{{ 'VISITINGCARD.PHONE' | translate }}</label><br/>
+  <div style="text-align: center;">
+    <label style="font-size: xxx-large;">{{ 'VISITINGCARD.NAME' | translate }}</label><br />
+    <label>{{ 'VISITINGCARD.PROFESSION' | translate }}</label><br />
+    <label>{{ 'VISITINGCARD.EMAIL' | translate }}</label><br />
+    <label>{{ 'VISITINGCARD.PHONE' | translate }}</label>
+  </div>
+  <br /><br />
+
+  <div class="fotos">
+    <i class="fa fa-chevron-left fa-5x" (click)="previous()"
+      style="color: #666666; position: absolute; left: 10px; top: 60%;"></i>
+    <i class="fa fa-chevron-right fa-5x" (click)="next()"
+      style="color: #666666; position: absolute; right: 10px; top: 60%;"></i>
+  </div>

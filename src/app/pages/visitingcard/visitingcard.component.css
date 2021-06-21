@@ -1,0 +1,12 @@
+ * {
+  font-family: cursive;
+}
+
+.fotos {
+  width: 98vw;
+  height: 60vh;
+  background-image: url("../../../assets/images/personaldata/foto_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60vh;
+}

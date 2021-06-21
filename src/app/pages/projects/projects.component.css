@@ -1,3 +1,8 @@
+* {
+  font-family: cursive;
+  font-size: calc(0.7vw + 5px);
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -11,8 +16,9 @@
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
 
 .panel {
@@ -20,4 +26,16 @@
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+.fotos {
+  position: absolute;
+  right: 1px;
+  top: 5px;
+  width: 60vw;
+  height: 30vh;
+  background-image: url("../../../assets/images/personaldata/foto_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50vh;
 }
