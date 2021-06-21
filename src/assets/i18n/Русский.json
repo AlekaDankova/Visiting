@@ -94,19 +94,19 @@
     "SPECIALKNOWLWDGE": [
       {
         "NAME": "PC-знания",
-        "DESCRIPTION": "Word, Excel, PowerPoint"
+        "DESCRIPTION": ["Word", "Excel", "PowerPoint"]
       },
       {
         "NAME": "Фотография",
-        "DESCRIPTION": "Adobe Photoshop"
+        "DESCRIPTION": ["Adobe Photoshop"]
       },
       {
         "NAME": "Анимация",
-        "DESCRIPTION": "Adobe Animate"
+        "DESCRIPTION": ["Adobe Animate"]
       },
       {
         "NAME": "3D-Дизайн",
-        "DESCRIPTION": "Autodesk Fusion 360"
+        "DESCRIPTION": ["Autodesk Fusion 360"]
       }
     ],
     "LINGUISTICPROFICIENCY": [

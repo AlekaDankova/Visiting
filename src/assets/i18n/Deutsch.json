@@ -94,19 +94,19 @@
     "SPECIALKNOWLWDGE": [
       {
         "NAME": "PC-Kenntnisse",
-        "DESCRIPTION": "Word, Excel, PowerPoint"
+        "DESCRIPTION": ["Word", "Excel", "PowerPoint"]
       },
       {
         "NAME": "Photographie",
-        "DESCRIPTION": "Adobe Photoshop"
+        "DESCRIPTION": ["Adobe Photoshop"]
       },
       {
         "NAME": "Animation",
-        "DESCRIPTION": "Adobe Animate"
+        "DESCRIPTION": ["Adobe Animate"]
       },
       {
         "NAME": "3D-Design",
-        "DESCRIPTION": "Autodesk Fusion 360"
+        "DESCRIPTION": ["Autodesk Fusion 360"]
       }
     ],
     "LINGUISTICPROFICIENCY": [
