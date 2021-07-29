@@ -35,6 +35,7 @@
       "PERSONALDATA": "Личные данные",
       "WORKEXPERIENCE": "Рабочий стаж",
       "EDUCATION": "Образование",
+      "INTEGRATION_QUALIFICATION": "Интеграция и квалификация",
       "SPECIALKNOWLWDGE": "Специальные знания",
       "LINGUISTICPROFICIENCY": "Лингвистические знания",
       "OTHER": "Другое"
@@ -73,10 +74,22 @@
     },
     "WORKEXPERIENCE": [ 
       {
-        "DATE": "09.2018 - 08.2021",
+        "DATE": "с 09.2018",
         "FIRMA": "Werbeagentur Maier GmbH",
         "POSITION": "Обучающийся",
         "EXPERIENCE": "NodeJS, Angular, Ionic, Arduino, Node-Red, Adobe Animate"
+      },
+      {
+        "DATE": "08.2017 – 08.2018",
+        "FIRMA": "Wirtshaus zur Schwedenscheuer",
+        "POSITION": "Повар",
+        "EXPERIENCE": "Холодные блюда, Десерты"
+      },
+      {
+        "DATE": "05.2012 – 09.2013",
+        "FIRMA": "Столичный ЦУМ",
+        "POSITION": "Повар",
+        "EXPERIENCE": "Горячие блюда, Холодные блюда, Десерты"
       }
     ],
     "EDUCATION_TABLE": {
@@ -89,6 +102,48 @@
         "DATE": "09.2018 - 08.2021",
         "SCHOOL": "IT Schule Stuttgart",
         "DIRECTION": "Специалист по разработке приложений"
+      },
+      {
+        "DATE": "09.2013 – 02.2015",
+        "SCHOOL": "Минский государственный коледж кулинарии",
+        "DIRECTION": "Повор"
+      },
+      {
+        "DATE": "09.2010 – 01.2012",
+        "SCHOOL": "Беларуский государственный университет",
+        "DIRECTION": "Радиофизика"
+      },
+      {
+        "DATE": "09.1999 – 06.2010",
+        "SCHOOL": "Средеяя школа 159 г. Минск",
+        "DIRECTION": ""
+      }
+    ],
+    "INTEGRATION_QUALIFICATION_TABLE": {
+      "DATE": "Дата",
+      "FIRMA": "Фирма",
+      "DIRECTION": "Направление"
+    },
+    "INTEGRATION_QUALIFICATION": [
+      {
+        "DATE": "06.2016 – 11.2016",
+        "FIRMA": "Volkshochschule (vhs) e.V., Stuttgart",
+        "DIRECTION": "Сертификат немецкого языка 'Язык и профессия' B1 +"
+      },
+      {
+        "DATE": "09.2016 – 10.2016",
+        "FIRMA": "Siegel Backkultur GmbH & Co. KG, Stuttgart",
+        "DIRECTION": "Стажировка по немецкому языку"
+      },
+      {
+        "DATE": "10.2015 – 05.2016",
+        "FIRMA": "DAA GmbH, Stuttgart",
+        "DIRECTION": "Сертификат немецкого языка A2"
+      },
+      {
+        "DATE": "03.2014 – 01.2015",
+        "FIRMA": "Goethe Institut, Minsk",
+        "DIRECTION": "Сертификат немецкого языка A1"
       }
     ],
     "SPECIALKNOWLWDGE": [
@@ -112,6 +167,10 @@
     "LINGUISTICPROFICIENCY": [
       {
         "NAME": "Русский",
+        "DESCRIPTION": "Родной"
+      },
+      {
+        "NAME": "Беларусский",
         "DESCRIPTION": "Родной"
       },
       {

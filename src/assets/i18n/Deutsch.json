@@ -35,6 +35,7 @@
       "PERSONALDATA": "Persönliche Daten",
       "WORKEXPERIENCE": "Berufserfahrung",
       "EDUCATION": "Ausbildung",
+      "INTEGRATION_QUALIFICATION": "Integration und Qualifizierung",
       "SPECIALKNOWLWDGE": "Besondere Kenntnisse",
       "LINGUISTICPROFICIENCY": "Sprachkenntnisse",
       "OTHER": "Sonstiges"
@@ -73,10 +74,22 @@
     },
     "WORKEXPERIENCE": [ 
       {
-        "DATE": "09.2018 - 08.2021",
+        "DATE": "seit 09.2018",
         "FIRMA": "Werbeagentur Maier GmbH",
-        "POSITION": "Auszubildende",
-        "EXPERIENCE": ["NodeJS", "Angular", "Ionic", "Arduino", "Node-Red", "Adobe Animate"]
+        "POSITION": "Auszubildende / Fachinformatiker-Anwendungsentwickler",
+        "EXPERIENCE": ["NodeJS", "AngularJS", "Ionic Framework", "Arduino IDF", "Node-Red", "Adobe Animate"]
+      },
+      {
+        "DATE": "08.2017 – 08.2018",
+        "FIRMA": "Wirtshaus zur Schwedenscheuer",
+        "POSITION": "Koch",
+        "EXPERIENCE": "Kalte Gerichte, Desserts"
+      },
+      {
+        "DATE": "05.2012 – 09.2013",
+        "FIRMA": "Stolichnej ZUM",
+        "POSITION": "Koch",
+        "EXPERIENCE": "Warme Gerichte, Kalte Gerichte, Desserts"
       }
     ],
     "EDUCATION_TABLE": {
@@ -88,7 +101,49 @@
       {
         "DATE": "09.2018 - 08.2021",
         "SCHOOL": "IT Schule Stuttgart",
-        "DIRECTION": "Fachinformatiker Anwendungsentwicklung"
+        "DIRECTION": "Ausbildung als Fachinformatiker-Anwendungsentwickler"
+      },
+      {
+        "DATE": "09.2013 – 02.2015",
+        "SCHOOL": "Staatlichen Technischen Berufskolleg für Kochkunst, Minsk",
+        "DIRECTION": "Ausbildung als Koch"
+      },
+      {
+        "DATE": "09.2010 – 01.2012",
+        "SCHOOL": "Weißrussischen Staatlichen Universität, Minsk",
+        "DIRECTION": "Studium der Radiophysik"
+      },
+      {
+        "DATE": "09.1999 – 06.2010",
+        "SCHOOL": "Mittelschule 159, Minsk",
+        "DIRECTION": "Mittlerer Schulabschluss"
+      }
+    ],
+    "INTEGRATION_QUALIFICATION_TABLE": {
+      "DATE": "Datum",
+      "FIRMA": "Firma",
+      "DIRECTION": "Richtung"
+    },
+    "INTEGRATION_QUALIFICATION": [
+      {
+        "DATE": "06.2016 – 11.2016",
+        "FIRMA": "Volkshochschule (vhs) e.V., Stuttgart",
+        "DIRECTION": "Zertifikat „Sprache und Beruf“ Deutsch B1+"
+      },
+      {
+        "DATE": "09.2016 – 10.2016",
+        "FIRMA": "Siegel Backkultur GmbH & Co. KG, Stuttgart",
+        "DIRECTION": "Deutsch Sprachpraktikum"
+      },
+      {
+        "DATE": "10.2015 – 05.2016",
+        "FIRMA": "DAA GmbH, Stuttgart",
+        "DIRECTION": "Zertifikat Deutsch A2"
+      },
+      {
+        "DATE": "03.2014 – 01.2015",
+        "FIRMA": "Goethe Institut, Minsk",
+        "DIRECTION": "Zertifikat Deutsch A1"
       }
     ],
     "SPECIALKNOWLWDGE": [
@@ -113,6 +168,10 @@
       {
         "NAME": "Russisch",
         "DESCRIPTION": "C2"
+      },
+      {
+        "NAME": "Weißrussisch",
+        "DESCRIPTION": "C1"
       },
       {
         "NAME": "Deutsch",

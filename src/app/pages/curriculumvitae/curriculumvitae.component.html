@@ -29,51 +29,81 @@
       </div>
     </div>
     <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.WORKEXPERIENCE' | translate">
-        <div style="width: 15vw; display: inline-block;">
-            <p>{{item.DATE}}</p>
-        </div>
-        <div style="width: 20vw; display: inline-block;">
-            <p>{{item.FIRMA}} </p>
-        </div>
-        <div style="width: 15vw; display: inline-block;">
-            <p>{{item.POSITION}}</p>
-        </div>
-        <div style="width: 45vw; display: inline-block;">
-            <p>{{item.EXPERIENCE}}</p>
-        </div>
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{item.DATE}}</p>
+      </div>
+      <div style="width: 20vw; display: inline-block;">
+        <p>{{item.FIRMA}} </p>
+      </div>
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{item.POSITION}}</p>
+      </div>
+      <div style="width: 45vw; display: inline-block;">
+        <p>{{item.EXPERIENCE}}</p>
+      </div>
     </div>
   </div>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.EDUCATION' | translate }}</button>
 <div class="panel">
-    <div style="width:99vw;">
-        <div style="width: 95vw;">
-          <div style="width: 15vw; display: inline-block;">
-            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DATE' | translate }}</p>
-          </div>
-          <div style="width: 20vw; display: inline-block;">
-            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.SCHOOL' | translate }}</p>
-          </div>
-          <div style="width: 60vw; display: inline-block;">
-            <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DIRECTION' | translate }}</p>
-          </div>
-        </div>
-        <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
-            <div style="width: 15vw; display: inline-block;">
-                <p>{{item.DATE}}</p>
-            </div>
-            <div style="width: 20vw; display: inline-block;">
-                <p>{{item.SCHOOL}} </p>
-            </div>
-            <div style="width: 60vw; display: inline-block;">
-                <p>{{item.DIRECTION}}</p>
-            </div>
-        </div>
+  <div style="width:99vw;">
+    <div style="width: 95vw;">
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DATE' | translate }}</p>
       </div>
+      <div style="width: 20vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.SCHOOL' | translate }}</p>
+      </div>
+      <div style="width: 60vw; display: inline-block;">
+        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DIRECTION' | translate }}</p>
+      </div>
+    </div>
+    <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
+      <div style="width: 15vw; display: inline-block;">
+        <p>{{item.DATE}}</p>
+      </div>
+      <div style="width: 20vw; display: inline-block;">
+        <p>{{item.SCHOOL}} </p>
+      </div>
+      <div style="width: 60vw; display: inline-block;">
+        <p>{{item.DIRECTION}}</p>
+      </div>
+    </div>
+  </div>
   <!-- <ng-container *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
     <p>{{item.DATE}}: {{item.SCHOOL}} - {{item.DIRECTION}}</p>
   </ng-container> -->
+</div>
+
+<button class="accordion">{{ 'CURRICULUMVITAE.MENU.INTEGRATION_QUALIFICATION' | translate }}</button>
+<div class="panel">
+  <div class="panel">
+    <div style="width:99vw;">
+      <div style="width: 95vw;">
+        <div style="width: 15vw; display: inline-block;">
+          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DATE' | translate }}</p>
+        </div>
+        <div style="width: 20vw; display: inline-block;">
+          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.FIRMA' | translate }}</p>
+        </div>
+        <div style="width: 60vw; display: inline-block;">
+          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DIRECTION' | translate }}</p>
+        </div>
+      </div>
+      <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION' | translate">
+        <div style="width: 15vw; display: inline-block;">
+          <p>{{item.DATE}}</p>
+        </div>
+        <div style="width: 20vw; display: inline-block;">
+          <p>{{item.FIRMA}} </p>
+        </div>
+        <div style="width: 60vw; display: inline-block;">
+          <p>{{item.DIRECTION}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.SPECIALKNOWLWDGE' | translate }}</button>
