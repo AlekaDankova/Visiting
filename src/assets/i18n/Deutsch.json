@@ -74,20 +74,23 @@
     },
     "WORKEXPERIENCE": [ 
       {
-        "DATE": "seit 09.2018",
+        "DATE": "09.2018 - 07.2021 / seit 08.2021",
         "FIRMA": "Werbeagentur Maier GmbH",
+        "HREF": "http://www.werbeagentur-maier.com/",
         "POSITION": "Auszubildende / Fachinformatiker-Anwendungsentwickler",
         "EXPERIENCE": ["NodeJS", "AngularJS", "Ionic Framework", "Arduino IDF", "Node-Red", "Adobe Animate"]
       },
       {
         "DATE": "08.2017 – 08.2018",
         "FIRMA": "Wirtshaus zur Schwedenscheuer",
+        "HREF": "https://www.schwedenscheuer.de/",
         "POSITION": "Koch",
         "EXPERIENCE": "Kalte Gerichte, Desserts"
       },
       {
         "DATE": "05.2012 – 09.2013",
         "FIRMA": "Stolichnej ZUM",
+        "HREF": "https://tsum.by/",
         "POSITION": "Koch",
         "EXPERIENCE": "Warme Gerichte, Kalte Gerichte, Desserts"
       }
@@ -101,21 +104,25 @@
       {
         "DATE": "09.2018 - 08.2021",
         "SCHOOL": "IT Schule Stuttgart",
+        "HREF": "https://www.its-stuttgart.de/",
         "DIRECTION": "Ausbildung als Fachinformatiker-Anwendungsentwickler"
       },
       {
         "DATE": "09.2013 – 02.2015",
         "SCHOOL": "Staatlichen Technischen Berufskolleg für Kochkunst, Minsk",
+        "HREF": "http://ptk-kulinarii.minsk.edu.by/",
         "DIRECTION": "Ausbildung als Koch"
       },
       {
         "DATE": "09.2010 – 01.2012",
         "SCHOOL": "Weißrussischen Staatlichen Universität, Minsk",
+        "HREF": "https://bsu.by/",
         "DIRECTION": "Studium der Radiophysik"
       },
       {
         "DATE": "09.1999 – 06.2010",
         "SCHOOL": "Mittelschule 159, Minsk",
+        "HREF": "http://sch159.minsk.edu.by/",
         "DIRECTION": "Mittlerer Schulabschluss"
       }
     ],
@@ -128,21 +135,25 @@
       {
         "DATE": "06.2016 – 11.2016",
         "FIRMA": "Volkshochschule (vhs) e.V., Stuttgart",
+        "HREF": "https://vhs-stuttgart.de/",
         "DIRECTION": "Zertifikat „Sprache und Beruf“ Deutsch B1+"
       },
       {
         "DATE": "09.2016 – 10.2016",
         "FIRMA": "Siegel Backkultur GmbH & Co. KG, Stuttgart",
+        "HREF": "https://www.siegel-backkultur.de/",
         "DIRECTION": "Deutsch Sprachpraktikum"
       },
       {
         "DATE": "10.2015 – 05.2016",
         "FIRMA": "DAA GmbH, Stuttgart",
+        "HREF": "https://daa-stuttgart.de/",
         "DIRECTION": "Zertifikat Deutsch A2"
       },
       {
         "DATE": "03.2014 – 01.2015",
         "FIRMA": "Goethe Institut, Minsk",
+        "HREF": "https://www.goethe.de/ins/by/de/index.html",
         "DIRECTION": "Zertifikat Deutsch A1"
       }
     ],

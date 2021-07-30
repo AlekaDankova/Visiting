@@ -1,131 +1,132 @@
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.PERSONALDATA' | translate }}</button>
-<div class="panel" style="position: relative;">
-  <ng-container *ngFor="let item of 'CURRICULUMVITAE.PERSONALDATA' | translate" style="position: absolute; left: 10px;">
-    <p>{{item.FIELDNAME}}: {{item.DATA}}</p>
-  </ng-container>
-  <div class="fotos">
-    <i class="fa fa-chevron-left fa-3x" (click)="previous()"
-      style="color: #666666; position: absolute; left: 10px; top: 40%;"></i>
-    <i class="fa fa-chevron-right fa-3x" (click)="next()"
-      style="color: #666666; position: absolute; right: 10px; top: 40%;"></i>
-  </div>
-</div>
+<table class="panel" style="text-align: left;">
+  <th style="vertical-align: top;">
+    <tr *ngFor="let item of 'CURRICULUMVITAE.PERSONALDATA' | translate">
+      <label style="font-weight: normal;">{{item.FIELDNAME}}: {{item.DATA}}</label>
+    </tr>
+  </th>
+  <th>
+    <div class="fotos">
+      <i class="fa fa-chevron-left fa-3x" (click)="previous()"
+        style="color: #666666; position: absolute; left: 10px; top: 40%;"></i>
+      <i class="fa fa-chevron-right fa-3x" (click)="next()"
+        style="color: #666666; position: absolute; right: 10px; top: 40%;"></i>
+    </div>
+  </th>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.WORKEXPERIENCE' | translate }}</button>
-<div class="panel">
-  <div style="width:99vw;">
-    <div style="width: 95vw;">
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.DATE' | translate }}</p>
-      </div>
-      <div style="width: 20vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.FIRMA' | translate }}</p>
-      </div>
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.POSITION' | translate }}</p>
-      </div>
-      <div style="width: 45vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.EXPERIENCE' | translate }}</p>
-      </div>
-    </div>
-    <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.WORKEXPERIENCE' | translate">
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{item.DATE}}</p>
-      </div>
-      <div style="width: 20vw; display: inline-block;">
-        <p>{{item.FIRMA}} </p>
-      </div>
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{item.POSITION}}</p>
-      </div>
-      <div style="width: 45vw; display: inline-block;">
-        <p>{{item.EXPERIENCE}}</p>
-      </div>
-    </div>
-  </div>
-</div>
+<table class="panel" style="text-align: left;">
+  <tr>
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.DATE' | translate }}:</label>
+    </th>
+    <th style="width: 35vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.FIRMA' | translate }}:</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.WORKEXPERIENCE_TABLE.POSITION' | translate }}:</label>
+    </th>
+  </tr>
+  <tr *ngFor="let item of 'CURRICULUMVITAE.WORKEXPERIENCE' | translate">
+    <th>
+      <label style="font-weight: normal;">{{item.DATE}}</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;"><a [href]="item.HREF" target="_blank">{{item.FIRMA}}</a></label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{item.POSITION}}</label>
+    </th>
+  </tr>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.EDUCATION' | translate }}</button>
-<div class="panel">
-  <div style="width:99vw;">
-    <div style="width: 95vw;">
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DATE' | translate }}</p>
-      </div>
-      <div style="width: 20vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.SCHOOL' | translate }}</p>
-      </div>
-      <div style="width: 60vw; display: inline-block;">
-        <p>{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DIRECTION' | translate }}</p>
-      </div>
-    </div>
-    <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
-      <div style="width: 15vw; display: inline-block;">
-        <p>{{item.DATE}}</p>
-      </div>
-      <div style="width: 20vw; display: inline-block;">
-        <p>{{item.SCHOOL}} </p>
-      </div>
-      <div style="width: 60vw; display: inline-block;">
-        <p>{{item.DIRECTION}}</p>
-      </div>
-    </div>
-  </div>
-  <!-- <ng-container *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
-    <p>{{item.DATE}}: {{item.SCHOOL}} - {{item.DIRECTION}}</p>
-  </ng-container> -->
-</div>
+<table class="panel" style="text-align: left;">
+  <tr>
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DATE' | translate }}:</label>
+    </th>
+    <th style="width: 35vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.EDUCATION_TABLE.SCHOOL' | translate }}:</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.EDUCATION_TABLE.DIRECTION' | translate }}:</label>
+    </th>
+  </tr>
+  <tr *ngFor="let item of 'CURRICULUMVITAE.EDUCATION' | translate">
+    <th>
+      <label style="font-weight: normal;">{{item.DATE}}</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;"><a [href]="item.HREF" target="_blank">{{item.SCHOOL}}</a></label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{item.DIRECTION}}</label>
+    </th>
+  </tr>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.INTEGRATION_QUALIFICATION' | translate }}</button>
-<div class="panel">
-  <div class="panel">
-    <div style="width:99vw;">
-      <div style="width: 95vw;">
-        <div style="width: 15vw; display: inline-block;">
-          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DATE' | translate }}</p>
-        </div>
-        <div style="width: 20vw; display: inline-block;">
-          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.FIRMA' | translate }}</p>
-        </div>
-        <div style="width: 60vw; display: inline-block;">
-          <p>{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DIRECTION' | translate }}</p>
-        </div>
-      </div>
-      <div style="width: 95vw;" *ngFor="let item of 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION' | translate">
-        <div style="width: 15vw; display: inline-block;">
-          <p>{{item.DATE}}</p>
-        </div>
-        <div style="width: 20vw; display: inline-block;">
-          <p>{{item.FIRMA}} </p>
-        </div>
-        <div style="width: 60vw; display: inline-block;">
-          <p>{{item.DIRECTION}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<table class="panel" style="text-align: left;">
+  <tr>
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DATE' | translate }}:</label>
+    </th>
+    <th style="width: 35vw;">
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.FIRMA' | translate }}:</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{ 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION_TABLE.DIRECTION' | translate }}:</label>
+    </th>
+  </tr>
+  <tr *ngFor="let item of 'CURRICULUMVITAE.INTEGRATION_QUALIFICATION' | translate">
+    <th>
+      <label style="font-weight: normal;">{{item.DATE}}</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;"><a [href]="item.HREF" target="_blank">{{item.FIRMA}}</a></label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{item.DIRECTION}}</label>
+    </th>
+  </tr>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.SPECIALKNOWLWDGE' | translate }}</button>
-<div class="panel">
-  <ng-container *ngFor="let item of 'CURRICULUMVITAE.SPECIALKNOWLWDGE' | translate">
-    <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
-  </ng-container>
-</div>
+<table class="panel" style="text-align: left;">
+  <tr *ngFor="let item of 'CURRICULUMVITAE.SPECIALKNOWLWDGE' | translate">
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{item.NAME}}:</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{item.DESCRIPTION}}</label>
+    </th>
+  </tr>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.LINGUISTICPROFICIENCY' | translate }}</button>
-<div class="panel">
-  <ng-container *ngFor="let item of 'CURRICULUMVITAE.LINGUISTICPROFICIENCY' | translate">
-    <p>{{item.NAME}}: {{item.DESCRIPTION}}</p>
-  </ng-container>
-</div>
+<table class="panel" style="text-align: left;">
+  <tr *ngFor="let item of 'CURRICULUMVITAE.LINGUISTICPROFICIENCY' | translate">
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{item.NAME}}:</label>
+    </th>
+    <th>
+      <label style="font-weight: normal;">{{item.DESCRIPTION}}</label>
+    </th>
+  </tr>
+</table>
 
 <button class="accordion">{{ 'CURRICULUMVITAE.MENU.OTHER' | translate }}</button>
-<div class="panel">
-  <ng-container *ngFor="let item of 'CURRICULUMVITAE.OTHER' | translate">
-    <p>{{item.NAME}}: </p>
-    <ng-container *ngFor="let i of item.DESCRIPTION">
-      <p>{{i.NAME}} - {{i.DESCRIPTION}}</p>
-    </ng-container>
-  </ng-container>
-</div>
+<table class="panel" style="text-align: left;">
+  <tr *ngFor="let item of 'CURRICULUMVITAE.OTHER' | translate">
+    <th style="width: 15vw;">
+      <label style="font-weight: normal;">{{item.NAME}}:</label>
+    </th>
+    <th>
+      <ng-container *ngFor="let i of item.DESCRIPTION">
+        <label style="font-weight: normal;">{{i.NAME}} - {{i.DESCRIPTION}}</label>
+      </ng-container>
+    </th>
+  </tr>
+</table>
